@@ -13,7 +13,7 @@
 ##                     get() - returns the cached matrix.
 ##                     set(y) - sets the cached matrix to y.
 ##                     getinverse() - returns the cached inverse matrix.
-##                     set(inverse) - sets the cached inverse matrix to inverse.
+##                     setinverse(inverse) - sets cached inverse matrix to inverse.
 ##
 
 makeCacheMatrix <- function(x = matrix()) {
